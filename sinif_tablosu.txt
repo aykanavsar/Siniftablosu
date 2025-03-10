@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sınıf Tablosu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sınıf Tablosu</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Öğrenci Numarası</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Notu</th>
+                <th>Doğum Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>Zeki</td>
+                <td>Alasya</td>
+                <td>85</td>
+                <td>12.04.2005</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Metin</td>
+                <td>Akpınar</td>
+                <td>90</td>
+                <td>22.06.2006</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Rüştü</td>
+                <td>Reçber</td>
+                <td>78</td>
+                <td>15.08.2004</td>
+            </tr>
+            <tr>
+                <td>1004</td>
+                <td>Hami</td>
+                <td>Mandıralı</td>
+                <td>92</td>
+                <td>30.01.2005</td>
+            </tr>
+            <tr>
+                <td>1005</td>
+                <td>Bülent</td>
+                <td>Ecevit</td>
+                <td>81</td>
+                <td>05.03.2006</td>
+            </tr>
+            <tr>
+                <td>1006</td>
+                <td>Kemal</td>
+                <td>Sunal</td>
+                <td>88</td>
+                <td>18.07.2004</td>
+            </tr>
+            <tr>
+                <td>1007</td>
+                <td>Süleyman</td>
+                <td>Demirel</td>
+                <td>76</td>
+                <td>25.09.2005</td>
+            </tr>
+            <tr>
+                <td>1008</td>
+                <td>Tansu</td>
+                <td>Çiller</td>
+                <td>95</td>
+                <td>10.11.2006</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
